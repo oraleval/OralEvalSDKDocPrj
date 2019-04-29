@@ -425,7 +425,10 @@
 
 **DEMO使用方法
 
-> 将SDK中libs下面的jar包拷贝到工程的libs目录下；src/main下面的assets、jniLibs、res目录拷贝到工程的src的main下面对应的目录下，然后运行demo。
+> 将SDK中libs下面的jar包拷贝到工程的libs目录下；src/main下面的assets、java、jniLibs、res目录和AndroidMainifest.xml拷贝到工程的src的main下面对应的目录下。
+
+> 工程结构图如下：
+> ![image](https://github.com/oraleval/OralEvalSDKDocPrj/blob/master/Project.png)
 ```
   sourceSets {
     main {
