@@ -7,6 +7,7 @@
  	* [IOralEvalSDK.ICallback](#ioralevalsdkicallback)
  * [SDKError](#ioralevalsdkerror)
  * [JSON字段说明](#Json)
+ * [FAQ](#FAQ)
  
  
  **说明：Android SDK V3.6.31版本及之后的版本，SDK内部做了混淆设置，业务层在做混淆的时候，不需要对oraleval-android-sdk.jar 进行混淆，如果需要混淆，<a href=https://github.com/oraleval/FAQ-Docs/blob/master/mix.md>请查看混淆配置文件</a>**
@@ -420,11 +421,19 @@
 
 **Json字段说明请查找：**<a href=https://github.com/oraleval/FAQ-Docs/blob/master/Json%20Description.md>Json字段说明</a>
 
-### 常见问题FAQ
+### <a name="FAQ"></a>FAQ
 
 **DEMO使用方法
 
-> SDK中demo，需要在Android Studio 中新建一个工程，将SDK中的组件，包含libs下面的jar包，src/main下面的assets、jniLibs、res目录拷贝到新建工程对应的目录下，然后运行demo。
+> 将SDK中libs下面的jar包拷贝到工程的libs目录下；src/main下面的assets、jniLibs、res目录拷贝到工程的src的main下面对应的目录下，然后运行demo。
+```
+  sourceSets {
+    main {
+      jniLibs.srcDir 'libs'
+    }
+  }
+该代码加入到build.gradle目录下面
+```
 
 > 运行过程需要给予所需要的录音及文件写入权限
 
