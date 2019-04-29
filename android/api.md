@@ -425,20 +425,21 @@
 
 **DEMO使用方法
 
-> 将SDK中libs下面的jar包拷贝到工程的libs目录下；src/main下面的assets、java、jniLibs、res目录和AndroidMainifest.xml拷贝到工程的src的main下面对应的目录下。
+> 将SDK中libs下面的jar包拷贝到工程的libs目录下；src/main下面的assets、java、jniLibs、res目录以及AndroidMainifest.xml覆盖到工程对应的目录。
 
 > 工程结构图如下：
+
 > ![image](https://github.com/oraleval/OralEvalSDKDocPrj/blob/master/Project.png)
+
 ```
   sourceSets {
     main {
       jniLibs.srcDir 'libs'
     }
   }
-该代码加入到build.gradle目录下面
+该代码加入到build.gradle
 ```
-
-> 运行过程需要给予所需要的录音及文件写入权限
+> 动态获取权限，运行过程需要给予应用所需要的录音及文件写入权限
 
 **VAD功能
 
