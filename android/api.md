@@ -421,5 +421,15 @@
 **Json字段说明请查找：**<a href=https://github.com/oraleval/FAQ-Docs/blob/master/Json%20Description.md>Json字段说明</a>
 
 ### 常见问题FAQ
-<a href="https://github.com/oraleval/FAQ-Docs/blob/master/FAQ.md">FAQ</a>|
+
+**DEMO使用方法
+
+> SDK中demo，需要在Android Studio 中新建一个工程，将SDK中的组件，包含libs下面的jar包，src/main下面的assets、jniLibs、res目录拷贝到新建工程对应的目录下，然后运行demo。
+
+> 运行过程需要给予所需要的录音及文件写入权限
+
+**VAD功能
+
+> 该功能是自动检测是否在录音，如果没有在录音，则自动停止录音。在V3.6.36版本之前是默认开启的，在V3.6.36版本后默认关闭。
+
 
