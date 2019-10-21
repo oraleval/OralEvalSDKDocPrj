@@ -277,6 +277,14 @@
 |返回值|从上次取出Log后开始，到目前为止，该次评测内部的Log|
 |版本支持| 最低2.6.5 |
 
+<br/>
+* public void setSecret(String secret)
+
+| | |
+| ----- | ----- |
+| 说明|控制appkey访问权限，增强appkey使用的安全性|
+|版本支持| 最低3.6.40 |
+|参数 secret|secret|客户可在云知声appkey管理平台生成、修改；|
 
 #### <a name="ioralevalsdkofflinesdkpreparationerror"></a> IOralEvalSDK.OfflineSDKError
 
