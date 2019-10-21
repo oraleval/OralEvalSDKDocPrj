@@ -252,7 +252,7 @@
 | ----- | ----- |
 | 说明|控制appkey访问权限，增强appkey使用的安全性|
 |版本支持| 最低3.6.40 |
-|参数 secret|secret|客户可在云知声appkey管理平台生成、修改；|
+|参数 secret|secret客户可在云知声appkey管理平台生成、修改；|
 <br/>
 
 ### <a name="ioralevalsdk"></a> IOralEvalSDK
